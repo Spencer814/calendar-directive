@@ -1,2 +1,4 @@
 bower_components
 node_modules
+!bower_components/angular/angular.js
+!bower_components/angular-mocks/angular-mocks.js

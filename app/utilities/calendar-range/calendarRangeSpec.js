@@ -12,8 +12,8 @@ describe('CalendarRange', function() {
 
             var result = {
               pass: actual.getMonth() == expected.getMonth() &&
-                  actual.getFullYear() == expected.getFullYear() &&
-                  actual.getDate() == expected.getDate()
+              actual.getFullYear() == expected.getFullYear() &&
+              actual.getDate() == expected.getDate()
             };
 
             if(result.pass) {
