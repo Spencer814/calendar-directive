@@ -1,0 +1,24 @@
+{
+  "name": "calendar-starter",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start app/utilities/calendar-range/karma.conf.js"
+  },
+  "author": "Andre Newman <andre.d.newman@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "jquery": "^2.2.3",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-ng-html2js-preprocessor": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-safari-launcher": "^1.0.0",
+    "ng-html2js": "^2.0.0",
+    "phantomjs-prebuilt": "^2.1.7"
+  }
+}
